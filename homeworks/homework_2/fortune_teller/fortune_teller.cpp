@@ -37,7 +37,8 @@ int main() {
   cin >> user_adjective.emplace_back();
   cout << "Please enter another adjective:" << endl;
   cin >> user_adjective.emplace_back();
-
+  
+  cout << "Here is your description:" << endl;
   cout << user_name << ", the " << user_adjective.at(user_name.size() % 2)
        << " " << nouns.at(time_of_year) << " that "
        << endings[user_name.size() % 3] << endl;
