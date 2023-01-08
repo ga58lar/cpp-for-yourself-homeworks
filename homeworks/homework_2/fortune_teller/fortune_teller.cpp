@@ -29,9 +29,8 @@ int main() {
   cout << "Please enter your name:" << endl;
   cin >> user_name;
 
-  cout << "Please enter the time of year when you were born:\n(pick from "
-          "'spring', 'summer', 'autumn', 'winter')"
-       << endl;
+  cout << "Please enter the time of year when you were born:" << endl;
+  cout << "'spring', 'summer', 'autumn', 'winter')" << endl;
   cin >> time_of_year;
 
   cout << "Please enter an adjective:" << endl;
